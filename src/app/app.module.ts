@@ -4,10 +4,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, ReactiveFormsModule,FontAwesomeModule, AppComponent, HeaderComponent],
+  imports: [BrowserModule, FormsModule, ReactiveFormsModule, AppComponent, HeaderComponent],
   declarations: [],
   providers: [],
   bootstrap: []
