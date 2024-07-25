@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-social-media',
@@ -16,5 +15,4 @@ export class SocialMediaComponent {
     instagram : "https://www.instagram.com/sarthak_goenka/?hl=en",
     facebook: "https://www.facebook.com/sharthak.agrawal"
   };
-  faHome = faHome;
 }
