@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { SoftwareSkillComponent } from './software-skill/software-skill.component';
+import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-skills',
   standalone: true,
-  imports: [SoftwareSkillComponent],
+  imports: [SoftwareSkillComponent,NgFor],
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.css'
 })
@@ -13,11 +14,14 @@ export class SkillsComponent {
     title: "What I do💁‍♂️",
     subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
     skills: [
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-      "⚡ Creating application backend in Node, Express & Flask",
-      "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
-      "⚡ Integration of third party services such as Firebase/ Heroku/ AWS",
-      "⚡ Experience of working with Computer Vision and NLP projects"
+      "⚡ Develop highly interactive end/user interfaces for web applications.",
+      "⚡ Design and implement backend systems using Java with Spring frameworks.",
+      "⚡ Implement responsive web designs using Angular, React, and jQuery.",
+      "⚡ Utilize modern JavaScript frameworks and libraries for front-end development.",
+      "⚡ Develop and maintain comprehensive test suites for web applications.",
+      "⚡ Apply best practices in software development, including CI/CD and version control.",
+      "⚡ Leverage Elasticsearch for search and data analytics within web applications.",
+      "⚡ Mentor and guide junior developers and interns, providing support in their development."
     ]
   };
 }
