@@ -9,10 +9,11 @@ import { Component } from '@angular/core';
 })
 export class SocialMediaComponent {
   socialMediaLinks = {
-    github: "https://github.com/sarthakgoenka",
-    linkedin: "https://www.linkedin.com/in/sarthak-agrawal-a41aa3153/",
-    gmail: "sharthak31@gmail.com",
-    instagram : "https://www.instagram.com/sarthak_goenka/?hl=en",
-    facebook: "https://www.facebook.com/sharthak.agrawal"
+    github: "https://github.com/marotiuppe",
+    linkedin: "https://www.linkedin.com/in/maroti-u-448324199/",
+    gmail: "marotiuppe891@gmail.com",
+    instagram : "https://www.instagram.com/maroti_uppe/",
+    facebook: "https://www.facebook.com/maroti.uppe/",
+    whatsapp:"https://wa.me/9867205329"
   };
 }

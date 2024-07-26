@@ -1,10 +1,16 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
+import { GreetingComponent } from "../greeting/greeting.component";
+import { SkillsComponent } from "../skills/skills.component";
+import { EducationComponent } from "../education/education.component";
+import { ProjectsComponent } from "../projects/projects.component";
+import { ExperienceComponent } from "../experience/experience.component";
+import { ContactComponent } from "../contact/contact.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeaderComponent],
+  imports: [HeaderComponent, GreetingComponent,HeaderComponent, GreetingComponent, SkillsComponent, EducationComponent, ProjectsComponent, ExperienceComponent, ContactComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NgFor } from '@angular/common';
 import { AppRoutingModule } from './app.routes';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, ReactiveFormsModule,AppComponent, HeaderComponent, NgFor,AppRoutingModule],
+  imports: [BrowserModule, FormsModule, ReactiveFormsModule, RouterModule, AppComponent, HeaderComponent, NgFor,AppRoutingModule],
 
   declarations: [],
   providers: [],
